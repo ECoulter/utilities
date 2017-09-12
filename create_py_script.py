@@ -22,8 +22,12 @@ def main():
     """if __name__ == '__main__':\n"""
     """  main()\n""")
 
-  with open(args.script_name+".py",'w') as script_file:
-    script_file.write(script_head+script_imports+script_main)
+  try:
+    with open(args.script_name+".py",'x') as script_file:
+      script_file.write(script_head+script_imports+script_main)
+  except Exception as err:
+    print("IOError:",err) 
+    
 
 if __name__ == '__main__':
   main()

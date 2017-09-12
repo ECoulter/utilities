@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp ./* /usr/local/sbin/
+cp ./*.py /usr/local/sbin/

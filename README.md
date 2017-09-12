@@ -2,7 +2,7 @@
 
 Repo for holding simple, possibly useful shell/python scripts. 
 
-# create\_python\_script.py
+# create\_py\_script.py
 
 Simple script; takes a filename (without .py) as an argument, 
 creates a simple skeleton for a python script, including argparse. 
